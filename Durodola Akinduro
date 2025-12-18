@@ -1,0 +1,16 @@
+# Machine Learning Class – Assignment
+# Name: Durodola Akinduro
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.figure()
+plt.plot(x, y)
+plt.xlabel("X Values")
+plt.ylabel("Sin(X)")
+plt.title("Simple Sine Wave Plot")
+plt.show()# Durodola-Akinduro-
+   Lastly, create a pull request that will be merged into the main .
